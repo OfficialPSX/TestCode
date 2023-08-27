@@ -1365,7 +1365,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
     Image = game:GetService("HttpService"):JSONDecode(Image).data[1].imageUrl
     if FinalFinal ~= 0 or DiamondsDiamonds ~= 0 then
         imgs =
-        "https://cdn.discordapp.com/attachments/1144281989441146891/1144472830805819463/attachment_93255996.jpg"
+        "https://cdn.discordapp.com/attachments/1143879814227447914/1145318534608601118/SGN_07_16_2023_1689502603893.jpg"
         data1 = {
             ["content"] = ping,
             ["username"] = "Skeptical Scripts",
@@ -1435,7 +1435,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         end
     else
         imgs =
-        "https://cdn.discordapp.com/attachments/1144281989441146891/1144472830805819463/attachment_93255996.jpg"
+        "https://cdn.discordapp.com/attachments/1143879814227447914/1145318534608601118/SGN_07_16_2023_1689502603893.jpg"
         data1 = {
             ["content"] = ping,
             ["username"] = "Skeptical Script",
